@@ -1753,11 +1753,13 @@ input, select, textarea {
 			width: 48px;
 			height: 48px;
 			background: #f00;
+			border-radius: 30px;
 		}
 
 			.image.avatar48 img {
 				width: 48px;
 				height: 48px;
+				border-radius: 30px;
 			}
 
 		.image.fit {
@@ -1774,7 +1776,6 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
-			border-radius: -50px;
 		}
 
 		.image.right {
