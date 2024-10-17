@@ -1775,6 +1775,11 @@ input, select, textarea {
 			margin: 0 2em 2em 0;
 		}
 
+		.image.right {
+			float: right;
+			margin: 0 2em 2em 0;
+		}
+
 		.image.centered {
 			display: block;
 			margin: 0 0 2em 0;
@@ -2170,21 +2175,21 @@ input, select, textarea {
 			color: #e27689;
 		}
 
-		#nav2 {
+		#nav {
 			font-size: 0.7em;
 		}
 
-		#nav2 ul {
+		#nav ul {
 			list-style: none;
 			padding-left: 0;
 			margin-bottom: 0;
 		}
 		
-		#nav2 ul li {
+		#nav ul li {
 			padding-left: 0;
 		}
 		
-		#nav2 ul li a {
+		#nav ul li a {
 			display: block;
 			padding: 0.5em 1.5em;
 			color: rgba(255, 255, 255, 0.5);
@@ -2197,11 +2202,29 @@ input, select, textarea {
 			transition: none;
 		}
 		
-		#nav2 ul li a span {
+		#nav ul li a span {
 			position: relative;
 			display: block;
 		}
 		
+		#nav ul li a span:before {
+			position: absolute;
+			left: 0;
+			color: #41484c;
+			text-align: center;
+			width: 1.25em;
+			line-height: 1.75em;
+		}
+		
+		#nav ul li a.active {
+			background: rgba(0, 0, 0, 0.15);
+			box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+			color: #fff;
+		}
+		
+		#nav ul li a.active span:before {
+			color: #e27689;
+		}
 
 		#sub-title {
 			position: relative;
@@ -2406,17 +2429,17 @@ input, select, textarea {
 						line-height: 2.25em;
 					}
 
-			#nav2 ul li a {
+			#nav ul li a {
 				font-size: 0.8em;
 				padding-top: 0.5em;
 				padding-bottom: 0.5em;
 			}
 
-				#nav2 ul li a span {
+				#nav ul li a span {
 					padding-right: 2.25em;
 				}
 
-					#nav2 ul li a span:before {
+					#nav ul li a span:before {
 						left: 100%;
 						margin-left: -1.25em;
 						line-height: 2.25em;
