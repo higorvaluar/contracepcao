@@ -1,40 +1,24 @@
-Prologue by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Projeto Hackathon - Contracepção Descomplicada
 
+## Descrição do Projeto
 
-This is Prologue, a simple, single page responsive site template. It features a
-clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
+Este projeto foi desenvolvido durante o Hackathon com o objetivo de ensinar os principais métodos contraceptivos e suas vantagens e desvantagens. Ele foi criado para conscientizar adolescentes e jovens adultos sobre a importância do uso de contracepções.
 
-Demo content images* are courtesy of the ridiculously talented Felicia Simion. Check out
-more of her amazing work over at deviantART:
+## Tecnologias Utilizadas
 
-http://ineedchemicalx.deviantart.com/
+As principais tecnologias usadas no projeto foram:
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
+- **HTML**: Escolhemos HTML por ser a base da estrutura de qualquer página web, garantindo acessibilidade e compatibilidade com diferentes navegadores.
+- **CSS**: Utilizamos CSS para estilizar a aplicação, separando o design da lógica, com um código bem organizado e dividido em seções específicas para facilitar a manutenção.
+- **JavaScript**: O JavaScript foi escolhido pela sua flexibilidade e capacidade de criar interatividade no frontend. Optamos por um código simples e documentado para facilitar a compreensão e a manutenção futura.
 
-Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)
-images you can use for pretty much whatever.
+Cada uma dessas tecnologias foi escolhida por sua simplicidade e capacidade de resolver o problema proposto de forma eficiente.
 
-(* = Not included)
+## Como Usar o Projeto
 
-AJ
-aj@lkn.io | @ajlkn
+Para um usuário leigo, usar o projeto é bem simples:
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
-Credits:
-
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+1. **Acesse a página inicial**: https://higorvaluar.github.io/contracepcao/
+2. **Interaja com a interface**: O projeto foi desenhado para ser intuitivo, então qualquer pessoa pode navegar pelos recursos de forma fácil.
+3. **Funcionalidades principais**: O usuário terá disponível um menu simples e intuitivo sinalizando o sexo que deseja consultar e abaixo está disponível o submenu com os principais tópicos.
+4. **Compatibilidade**: Funciona em todos os navegadores modernos e dispositivos móveis.
