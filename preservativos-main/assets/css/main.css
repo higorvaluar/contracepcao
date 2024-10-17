@@ -2202,24 +2202,6 @@ input, select, textarea {
 			display: block;
 		}
 		
-		#nav2 ul li a span:before {
-			position: absolute;
-			left: 0;
-			color: #41484c;
-			text-align: center;
-			width: 1.25em;
-			line-height: 1.75em;
-		}
-		
-		#nav2 ul li a.active {
-			background: rgba(0, 0, 0, 0.15);
-			box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-			color: #fff;
-		}
-		
-		#nav2 ul li a.active span:before {
-			color: #e27689;
-		}
 
 		#sub-title {
 			position: relative;
@@ -2305,22 +2287,25 @@ input, select, textarea {
 				background-position: center center;
 			}
 
-			#main > section.one {
+			#main > section.one { 
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #dbfbff;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #d4d9f3;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #f6c8ffee;
 			}
+			#main > section.five {
+				background-color: #ffc0fa;
+			} 
 
 /* Wide */
 
@@ -2416,6 +2401,22 @@ input, select, textarea {
 				}
 
 					#nav1 ul li a span:before {
+						left: 100%;
+						margin-left: -1.25em;
+						line-height: 2.25em;
+					}
+
+			#nav2 ul li a {
+				font-size: 0.8em;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+			}
+
+				#nav2 ul li a span {
+					padding-right: 2.25em;
+				}
+
+					#nav2 ul li a span:before {
 						left: 100%;
 						margin-left: -1.25em;
 						line-height: 2.25em;
